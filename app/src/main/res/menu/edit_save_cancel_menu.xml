@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content">
+
+    <item
+        android:id="@+id/navigation_delete"
+        android:icon="@drawable/ic_launcher_foreground"
+        android:title="Delete"/>
+
+    <item
+        android:id="@+id/navigation_cancel"
+        android:icon="@drawable/ic_launcher_foreground"
+        android:title="Cancel"/>
+
+    <item
+        android:id="@+id/navigation_save"
+        android:icon="@drawable/ic_launcher_foreground"
+        android:title="Save"/>
+
+</menu>

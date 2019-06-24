@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DAECEC"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".CourseListActivity"
+    tools:showIn="@layout/activity_course_list">
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="8dp"
+        android:background="@drawable/customshape"
+        android:divider="#B8D8EC"
+        android:dividerHeight="4px"
+        android:paddingBottom="50dp"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="3dp" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/addCourseButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="36dp"
+        android:clickable="true"
+        android:src="@mipmap/ic_addbutton_foreground"
+        app:backgroundTint="#73BBFF"
+        app:layout_constraintBottom_toTopOf="@+id/navigationView"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/navigationView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:itemBackground="@android:color/white"
+        app:menu="@menu/menu"
+        app:labelVisibilityMode="labeled"/>
+
+</android.support.constraint.ConstraintLayout>

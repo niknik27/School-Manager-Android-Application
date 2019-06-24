@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Term Manager</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_term_list">Term List</string>
+    <string name="title_activity_course_list">Course List</string>
+    <string name="title_activity_assessment_list">Assessment List</string>
+    <string name="title_activity_term_details">Term Details</string>
+    <string name="title_activity_assessment_details">Assessment Details</string>
+    <string name="title_activity_course_and_mentor_details">Course and Mentor Details</string>
+    <string name="title_activity_note_details">NoteDetailsActivity</string>
+</resources>

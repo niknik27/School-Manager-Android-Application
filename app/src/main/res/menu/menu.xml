@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_launcher_foreground"
+        android:title="Home"/>
+
+    <item
+        android:id="@+id/navigation_terms"
+        android:icon="@drawable/ic_launcher_foreground"
+        android:title="Term"/>
+
+    <item
+        android:id="@+id/navigation_courses"
+        android:icon="@drawable/ic_launcher_foreground"
+        android:title="Courses"/>
+
+    <item
+        android:id="@+id/navigation_assessments"
+        android:icon="@drawable/ic_launcher_foreground"
+        android:title="Assess"/>
+
+</menu>

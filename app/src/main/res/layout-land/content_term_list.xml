@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DAECEC"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".TermListActivity"
+    tools:showIn="@layout/activity_term_list">
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="8dp"
+        android:background="@drawable/customshape"
+        android:divider="#B8D8EC"
+        android:dividerHeight="4px"
+        android:paddingBottom="50dp"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="3dp" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/addTermButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="36dp"
+        android:clickable="true"
+        android:src="@mipmap/ic_addbutton_foreground"
+        app:backgroundTint="#73BBFF"
+        app:layout_constraintBottom_toTopOf="@+id/navigationView"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/navigationView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:itemBackground="@android:color/white"
+        app:labelVisibilityMode="labeled"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:menu="@menu/menu" />
+
+</android.support.constraint.ConstraintLayout>
