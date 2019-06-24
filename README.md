@@ -6,11 +6,11 @@ It also provides a note taking feature.
 [![Build Status](http://img.shields.io/travis/badges/badgerbadgerbadger.svg?style=flat-square)](https://travis-ci.org/badges/badgerbadgerbadger)
 
 ## Screenshots
-![Image](screenshot1.png?raw=true "Screenshot 1")
+![Image](AndroidScreenshot1.png?raw=true "Screenshot 1")
 
-![Image](screenshot2.png?raw=true "Screenshot 2")
+![Image](AndroidScreenshot2.png?raw=true "Screenshot 2")
 
-![Image](screenshot3.png?raw=true "Screenshot 3")
+![Image](AndroidScreenshot3.png?raw=true "Screenshot 3")
 
 
 ## Tech/framework used
