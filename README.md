@@ -5,13 +5,15 @@ It also provides a note taking feature.
 ## Build status
 [![Build Status](http://img.shields.io/travis/badges/badgerbadgerbadger.svg?style=flat-square)](https://travis-ci.org/badges/badgerbadgerbadger)
 
+## Preview
+<img src="SchoolManager.gif" width="100%">
+
 ## Screenshots
 ![Image](AndroidScreenshot1.png?raw=true "Screenshot 1")
 
 ![Image](AndroidScreenshot2.png?raw=true "Screenshot 2")
 
 ![Image](AndroidScreenshot3.png?raw=true "Screenshot 3")
-
 
 ## Tech/framework used
 <b>Built with</b>
